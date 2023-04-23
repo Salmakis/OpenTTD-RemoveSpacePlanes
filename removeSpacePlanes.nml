@@ -1,0 +1,10 @@
+grf {
+	grfid: "AX\01\00";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESCRIPTION);
+	version: 0;
+	min_compatible_version: 0;
+}
+
+//remove the space futuristic planes
+disable_item(FEAT_AIRCRAFT, 24, 37);
